@@ -24,4 +24,4 @@ To use the stack implementation, follow these steps:
    ```
    ./stack
    ```
-4. Follow the prompts to perform stack operations.
+
