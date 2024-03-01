@@ -19,7 +19,7 @@ int main()
     int data;
     while (1)
     {
-        printf("Enter your choice:\n1.Push\n2.Pop\n3.Print toppest element\n4.Print all the elements of the stack\n5.Exit\n");
+        printf("Enter your choice:\n1.Push\n2.Pop\n3.Print top element\n4.Print all the elements of the stack\n5.Exit\n");
         scanf("%d", &choice);
 
         switch (choice)
@@ -37,7 +37,7 @@ int main()
             }
             break;
         case 3:
-            printf("The toppest element is %d", peek());
+            printf("The top element is %d", peek());
             break;
         case 4:
             print();
