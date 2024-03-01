@@ -37,7 +37,7 @@ int main()
             }
             break;
         case 3:
-            peek();
+            printf("The toppest element is %d", peek());
             break;
         case 4:
             print();
